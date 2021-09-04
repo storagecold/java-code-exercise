@@ -22,7 +22,7 @@ public class FunctionalInterface {
         // Collections.sort(people, Comparator.comparing(Person::getLastName));
 
         //step 2 print all person
-        performConditionally(people, p -> true, p -> System.out.println(p));
+       // performConditionally(people, p -> true, p -> System.out.println(p));
 
         //step 3
         performConditionally(people, person -> person.getLastName().startsWith("C"));
